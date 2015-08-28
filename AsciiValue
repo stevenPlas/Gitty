@@ -1,0 +1,34 @@
+package asciivalue;
+
+
+public class AsciiValue {
+
+
+    public static void main(String[] args)
+    {
+        
+        char L = 'L';
+        char O = 'O';
+        char V = 'V';
+        char E = 'E';
+        
+        int sum = (L + O + V + E);
+        
+        System.out.println("The word that I choose is \"Love\"\n");
+        
+        System.out.print("The Ascii value for L is ");
+        System.out.println((int)L);
+        System.out.print("The Ascii value for O is ");
+        System.out.println((int)O);
+        System.out.print("The Ascii value for V is ");
+        System.out.println((int)V);
+        System.out.print("The Ascii value for E is ");
+        System.out.println((int)E);
+        
+        System.out.print("\nThe sum of the Ascii values is: ");
+        System.out.println((int)sum);
+          
+        
+    }
+    
+}
